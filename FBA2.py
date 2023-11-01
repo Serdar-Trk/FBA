@@ -12,10 +12,6 @@ sales_by_date2023 = pd.read_excel('sales_by_date2023.xlsx')
 
 def main():
     st.set_page_config(layout="wide")
-    password = st.text_input("Şifreyi girin", type="password")
-    correct_password = os.environ.get('PASSWORD', "1514")  # getting password from environment variable
-    if password != correct_password:
-        return
 
 
 
