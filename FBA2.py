@@ -38,7 +38,7 @@ def main():
     fig.update_layout(title='Aylık Ortalama Satış Adedi',
                       xaxis_title='Tarih',
                       yaxis_title='Oran',
-                      template='plotly_white',
+                      template='xgridoff',
                       height=600,
                       font=dict(size=20, color='black'),
                       legend=dict(x=0.01, y=0.99))
