@@ -53,7 +53,7 @@ def main():
             arrowhead=1,
             arrowsize=3,
             arrowwidth=1,
-            arrowcolor='black',
+            arrowcolor='red',
             ax=0,
             ay=-20
         )
